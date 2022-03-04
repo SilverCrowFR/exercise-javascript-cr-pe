@@ -1,0 +1,147 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.9fa0df2280f974053dddd74f25775725?rik=sJ8YEUJZUnRfnQ&riu=http%3a%2f%2fwww.prettychef.fr%2fwp-content%2fuploads%2f2018%2f02%2frecette-crepes-sucrees-pretty-chef-03.jpg&ehk=G%2ftj3aCOR7aXsRX9EAF%2fsGKDJdjPeDMw8FfMR61VpPE%3d&risl=&pid=ImgRaw&r=0);
+}
+.container {
+    display: grid; 
+    grid-template-columns: 0.9fr 1.1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."; 
+  }
+.saisie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(33, 33, 33);
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    border: solid;
+    border-color: darkgoldenrod;
+    box-shadow: 9px 9px 10px 1px black;
+
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid;
+    border-color: darkgoldenrod;
+}
+#value{
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 30px;
+    width: 150px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px 2px darkgoldenrod;
+}
+input{
+    height: 30px;
+    width: 200px;
+    background-color: white
+
+}
+.button p{
+    color: aliceblue;
+}
+.bloc{
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 1050px;
+    border: solid;
+    border-color: darkgoldenrod;
+    box-shadow: 9px 9px 10px 1px black;
+}
+.Ingredients{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+}
+.noming{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1120px;
+}
+.noming p{
+    color: white;
+}
+.interne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+.titre {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-size: 20px;
+}
+.composant{
+    background-color: beige;
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+}
+.liste_recette p{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 20px;
+}
+.liste_recette h1{
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#farine{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#oeuf{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#lait{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#sucre{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#beurre{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#huile{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+h1{
+    color: white;
+}
